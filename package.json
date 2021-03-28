@@ -1,0 +1,21 @@
+{
+  "name": "maps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx parcel serve index.html",
+    "build": "npx parcel build index.html"
+  },
+  "keywords": [],
+  "author": "Kenneth Bushman",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.2"
+  },
+  "dependencies": {
+    "@types/faker": "^5.1.7",
+    "@types/googlemaps": "^3.43.3",
+    "faker": "^5.5.1"
+  }
+}
